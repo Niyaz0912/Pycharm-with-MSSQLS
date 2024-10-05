@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="773aa9c8-bdc2-4963-9035-767178890ee6" name="Changes" comment="Начат проект по БД MSSQL Server Express">
-      <change afterPath="$PROJECT_DIR$/database_query.py" afterDir="false" />
+    <list default="true" id="773aa9c8-bdc2-4963-9035-767178890ee6" name="Changes" comment="В файл requirements.txt были внесены требовения связанные с проектом">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple_queries.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple_queries.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database_query.py" beforeDir="false" afterPath="$PROJECT_DIR$/database_query.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +119,31 @@
       <option name="project" value="LOCAL" />
       <updated>1727456364645</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Дописан код показанный на уроке">
+      <option name="closed" value="true" />
+      <created>1728142171081</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728142171081</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Создан пайтон файл database_query.py с запросами к БД MSSQLS">
+      <option name="closed" value="true" />
+      <created>1728142241369</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728142241369</updated>
+    </task>
+    <task id="LOCAL-00004" summary="В файл requirements.txt были внесены требовения связанные с проектом">
+      <option name="closed" value="true" />
+      <created>1728142320901</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728142320901</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -140,6 +162,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Начат проект по БД MSSQL Server Express" />
-    <option name="LAST_COMMIT_MESSAGE" value="Начат проект по БД MSSQL Server Express" />
+    <MESSAGE value="Дописан код показанный на уроке" />
+    <MESSAGE value="Создан пайтон файл database_query.py с запросами к БД MSSQLS" />
+    <MESSAGE value="В файл requirements.txt были внесены требовения связанные с проектом" />
+    <option name="LAST_COMMIT_MESSAGE" value="В файл requirements.txt были внесены требовения связанные с проектом" />
   </component>
 </project>

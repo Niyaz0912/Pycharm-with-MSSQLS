@@ -19,38 +19,34 @@ try:
 except Exception as e:
     print(f"Ошибка подключения: {e}")
 
-
 # Создание Базы данных
 try:
-    cursor.execute("CREATE DATABASE TestDB")
+    SQL_QUERY = """CREATE DATABASE TestDB;
+GO"""
     print("База данных создана!")
 except Exception as e:
     print(f"Ошибка при создании базы данных: {e}")
 
-
 # Создание таблицы
 try:
-    cursor.execute("""
-    CREATE TABLE Users (
-        ID INT PRIMARY KEY IDENTITY(1,1),
-        Name NVARCHAR(50),
-        Age INT
-    )
-    """)
+    SQL_QUERY = """CREATE TABLE Users (
+    ID INT PRIMARY KEY IDENTITY(1,1),
+    Name NVARCHAR(50),
+    Age INT
+);
+GO"""
     print("Таблица создана!")
 except Exception as e:
     print(f"Ошибка при создании таблицы: {e}")
 
-
 # Заполнение таблицы данными
 try:
-    cursor.execute("INSERT INTO Users (Name, Age) VALUES ('Иван', 30)")
-    cursor.execute("INSERT INTO Users (Name, Age) VALUES ('Анна', 25)")
-    cnxn.commit()  # Подтверждение изменений
+    SQL_QUERY = """INSERT INTO Users (Name, Age) VALUES ('Иван', 30);
+INSERT INTO Users (Name, Age) VALUES ('Анна', 25);
+GO"""
     print("Данные добавлены в таблицу!")
 except Exception as e:
     print(f"Ошибка при добавлении данных: {e}")
-
 
 # Вывод данных из базы данных
 try:
