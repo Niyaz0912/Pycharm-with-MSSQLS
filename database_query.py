@@ -49,13 +49,14 @@ except Exception as e:
     print(f"Ошибка при добавлении данных: {e}")
 
 # Вывод данных из базы данных
+
 try:
     cursor.execute("SELECT * FROM Users")
     rows = cursor.fetchall()
 
     users_list = []
     for row in rows:
-        users_list.append({'ID': row.ID, 'Name': row.Name, 'Age': row.Age})
+        users_list.append({row.Name, row.Age})
 
     print("Данные из таблицы:", users_list)
 except Exception as e:
